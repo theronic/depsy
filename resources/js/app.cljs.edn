@@ -1,0 +1,3 @@
+{:require  [depsy.app]
+ :init-fns [depsy.app/init]
+ :compiler-options {:asset-path "js/app.out"}}
