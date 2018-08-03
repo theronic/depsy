@@ -145,7 +145,7 @@
        [deps-converter (with-out-str (pprint/pprint example))]
        [:div {:style {:clear "both"}}]
        [:hr]
-       [:p "Made with love by " [:a {:href "http://petrustheron.com/"} "Petrus Theron"] ". You can " [:a {:href "https://github.com/theronic"} "read the source"] "."]])
+       [:p "Made with love by " [:a {:href "http://petrustheron.com/"} "Petrus Theron"] ". You can " [:a {:href "https://github.com/theronic/depsy"} "read the source"] "."]])
 
 (defn init []
       (reagent/render-component [parent-component]

@@ -78,6 +78,12 @@
 ;;; about.
 (ns-unmap 'boot.user 'test)
 
+(deftask package []
+         (comp (watch)
+               (production)
+               (build)
+               (target)))
+
 (deftask test []
   (comp (testing)
         (test-cljs :js-env :phantom
